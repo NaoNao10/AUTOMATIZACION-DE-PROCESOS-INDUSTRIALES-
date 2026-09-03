@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHIRINO BALCAZAR JORDY JESUS | Inteligencia artificial</title>
+<meta name="description" content="Introducción visual a la automatización: historia, conceptos clave, tipos, niveles, ventajas, desventajas y casos de estudio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#100d14">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<div class="progress" id="progress"></div>
+
+<div class="shell">
+
+  <nav class="rail" id="rail" aria-label="Índice de secciones">
+    <div class="rail-brand">
+      <span class="rail-mark">01</span>
+      <span class="rail-brand-text">PORTAFOLIO<br>AUTOMATIZACIÓN</span>
+    </div>
+    <button class="menu-toggle" type="button" aria-controls="railList" aria-expanded="false">Índice +</button>
+    <div class="rail-list" id="railList">
+      <a href="#inicio" class="rail-link"><span class="rl-tag">00</span>Inicio</a>
+      <a href="#introduccion" class="rail-link"><span class="rl-tag">01</span>Introducción</a>
+      <a href="#historia" class="rail-link"><span class="rl-tag">02</span>Historia</a>
+      <a href="#conceptos" class="rail-link"><span class="rl-tag">03</span>Conceptos clave</a>
+      <a href="#ciclo" class="rail-link"><span class="rl-tag">04</span>Ciclo de automatización</a>
+      <a href="#tipos" class="rail-link"><span class="rl-tag">05</span>Tipos de automatización</a>
+      <a href="#niveles" class="rail-link"><span class="rl-tag">06</span>Niveles de automatización</a>
+      <a href="#ventajas" class="rail-link"><span class="rl-tag">07</span>Ventajas y desventajas</a>
+      <a href="#diferencias" class="rail-link"><span class="rl-tag">08</span>Industrial vs. servicios</a>
+      <a href="#casos" class="rail-link"><span class="rl-tag">09</span>Casos de estudio</a>
+      <a href="#arquitectura" class="rail-link"><span class="rl-tag">10</span>Arquitectura del sistema</a>
+      <a href="#glosario" class="rail-link"><span class="rl-tag">11</span>Glosario extendido</a>
+    </div>
+    <div class="rail-foot">SHEET 01 / 06 · REV B</div>
+  </nav>
+
+  <main class="sheet" id="contenido">
+
+    <section class="cover" id="inicio" aria-labelledby="cover-title">
+      <div class="cover-top"><span>PORTAFOLIO ACADÉMICO</span><span class="cover-edition">01 / INTELIGENCIA ARTIFICIAL</span></div>
+      <div class="cover-core">
+        <div class="cover-kicker"><span aria-hidden="true">✦</span> 人工知能 · INTELIGENCIA ARTIFICIAL</div>
+        <h1 id="cover-title">CHIRINO<br>BALCAZAR<br><span>JORDY JESUS</span></h1>
+        <p class="cover-subject">Inteligencia artificial<span aria-hidden="true" class="cover-cursor"></span></p>
+        <a class="cover-enter" href="#portafolio">Explorar portafolio <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="cover-bottom"><span>AUTOMATIZACIÓN / CONCEPTOS Y APLICACIONES</span><a href="#portafolio" aria-label="Continuar al contenido">DESLIZA PARA EXPLORAR <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <header class="titleblock" id="portafolio">
+      <div class="tb-row">
+        <span>PORTAFOLIO · AUTOMATIZACIÓN</span>
+        <span class="accent">CARD 01 · REV B</span>
+      </div>
+      <div class="anime-note" aria-hidden="true">自動化 / AUTOMATION</div>
+      <h2 class="content-title">Conceptos básicos<br>de <span>automatización.</span></h2>
+      <p class="lede">Un recorrido por el origen, el vocabulario técnico, la lógica de funcionamiento y los distintos niveles y tipos de los sistemas automatizados, con ejemplos aplicados y casos reales que sirven de base para entender su aplicación en la industria y en los servicios.</p>
+      <div class="tb-meta">
+        <div class="tb-meta-item"><span class="k">SECCIONES</span><span class="v">11</span></div>
+        <div class="tb-meta-item"><span class="k">ESTADO</span><span class="v">Versión extendida</span></div>
+        <div class="tb-meta-item"><span class="k">SERIE</span><span class="v">01 de 06</span></div>
+      </div>
+    </header>
+
+    <section id="introduccion" class="panel">
+      <div class="panel-head"><span class="coord">N.01</span><h2>Introducción</h2></div>
+      <div class="panel-body">
+        <p>La automatización agrupa el conjunto de tecnologías mecánicas, eléctricas, electrónicas e informáticas que permiten que un proceso se ejecute con una intervención humana mínima. No se trata solo de máquinas que reemplazan manos: es un sistema que percibe su entorno, toma decisiones según reglas o algoritmos, y actúa sobre ese entorno para cumplir un objetivo.</p>
+        <p>Su propósito central es sustituir tareas repetitivas, peligrosas o que exigen alta precisión, liberando a las personas para labores de supervisión, diseño, análisis y mejora continua de los procesos.</p>
+        <p>Para entenderla mejor conviene distinguir tres capas que casi siempre están presentes, sin importar el sector: la capa <b>física</b> (sensores y actuadores que tocan el mundo real), la capa <b>lógica</b> (el controlador que decide) y la capa <b>de supervisión</b> (las personas y los sistemas que monitorean el conjunto y ajustan los objetivos). Cuando alguien dice que "automatizó" algo, casi siempre está describiendo cambios en una o varias de estas tres capas.</p>
+        <div class="callout"><b>Ejemplo cotidiano.</b> Un lavarropas moderno automatiza un proceso doméstico: un sensor de peso estima la carga (capa física), un microcontrolador decide el tiempo de lavado y la cantidad de agua (capa lógica), y una pantalla permite a la persona supervisar o interrumpir el ciclo (capa de supervisión). El mismo patrón se repite en una fábrica de automóviles, solo que a mayor escala.</div>
+      </div>
+    </section>
+
+    <section id="historia" class="panel">
+      <div class="panel-head"><span class="coord">N.02</span><h2>Historia</h2></div>
+      <div class="panel-sub">SEIS MOMENTOS QUE MARCARON UN SALTO EN LA FORMA DE AUTOMATIZAR PROCESOS</div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-year">Siglo XVIII</div><div class="tl-text">La máquina de vapor y el <b>telar de Jacquard</b>, controlado por tarjetas perforadas, marcan los primeros mecanismos capaces de repetir una secuencia sin intervención directa del operario. Las tarjetas perforadas del telar son, en esencia, el primer "programa" de la historia: cada perforación decidía si un hilo pasaba por arriba o por abajo, permitiendo tejer patrones complejos sin que un tejedor tuviera que recordarlos.</div></div>
+        <div class="tl-item"><div class="tl-year">1913</div><div class="tl-text">Henry Ford introduce la <b>línea de montaje</b> en la planta de Highland Park, estandarizando y mecanizando la producción en masa por primera vez. El tiempo de ensamblaje de un Ford Modelo T pasó de más de doce horas a poco más de noventa minutos, un salto que popularizó la idea de dividir un proceso complejo en tareas simples y repetibles.</div></div>
+        <div class="tl-item"><div class="tl-year">Décadas de 1940–1950</div><div class="tl-text">Norbert Wiener funda la <b>cibernética</b> y se formalizan los primeros sistemas de control por retroalimentación, base teórica de la automatización moderna. Es en esta época cuando se empieza a hablar de "servomecanismos": dispositivos capaces de corregir su propio error comparando lo que hacen contra lo que deberían hacer.</div></div>
+        <div class="tl-item"><div class="tl-year">1968</div><div class="tl-text">Richard Morley inventa el <b>PLC</b> (Controlador Lógico Programable) para General Motors, que reemplaza los enormes tableros de relés electromecánicos. Reprogramar una línea de producción, que antes tomaba semanas de recableado físico, pasó a resolverse cargando un nuevo programa en minutos.</div></div>
+        <div class="tl-item"><div class="tl-year">Décadas de 1980–1990</div><div class="tl-text">Se expanden la <b>robótica industrial</b>, los sistemas SCADA y la manufactura integrada por computador (CIM). Los brazos robóticos dejan de ser una curiosidad de laboratorio y se vuelven habituales en las líneas de soldadura y pintura de la industria automotriz.</div></div>
+        <div class="tl-item"><div class="tl-year">Siglo XXI</div><div class="tl-text">La automatización se extiende a los procesos de oficina y atención al cliente con <b>RPA</b>, IoT, inteligencia artificial e Industria 4.0. Por primera vez, automatizar deja de requerir hardware especializado: basta con software que interactúa con otros sistemas digitales, como un "empleado virtual" que copia datos entre aplicaciones.</div></div>
+      </div>
+    </section>
+
+    <section id="conceptos" class="panel">
+      <div class="panel-head"><span class="coord">N.03</span><h2>Conceptos clave</h2></div>
+      <div class="panel-sub">EL VOCABULARIO MÍNIMO PARA LEER CUALQUIER DIAGRAMA DE AUTOMATIZACIÓN</div>
+      <div class="term-grid">
+        <div class="term"><div class="term-name">SENSOR</div><div class="term-def">Dispositivo que capta una variable física (temperatura, presión, posición) y la convierte en una señal que el sistema puede interpretar.</div><div class="term-ex"><b>Ejemplo:</b> un termopar que mide la temperatura de un horno industrial.</div></div>
+        <div class="term"><div class="term-name">CONTROLADOR</div><div class="term-def">Unidad que procesa la información recibida y decide qué acción ejecutar, ya sea un PLC, un microcontrolador o un software.</div><div class="term-ex"><b>Ejemplo:</b> un PLC que compara la temperatura leída con la temperatura objetivo.</div></div>
+        <div class="term"><div class="term-name">ACTUADOR</div><div class="term-def">Elemento que ejecuta físicamente la orden del controlador: un motor, una válvula, un robot o un brazo mecánico.</div><div class="term-ex"><b>Ejemplo:</b> una válvula de gas que se abre o cierra según la orden recibida.</div></div>
+        <div class="term"><div class="term-name">RETROALIMENTACIÓN</div><div class="term-def">Información que regresa al sistema desde el proceso, permitiendo ajustar su comportamiento en tiempo real.</div><div class="term-ex"><b>Ejemplo:</b> el mismo termopar vuelve a medir después de que la válvula actuó.</div></div>
+        <div class="term"><div class="term-name">LAZO DE CONTROL</div><div class="term-def">Circuito cerrado sensor–controlador–actuador–proceso que permite que el sistema se autorregule de forma continua.</div><div class="term-ex"><b>Ejemplo:</b> el termostato de un aire acondicionado (ver sección 04).</div></div>
+        <div class="term"><div class="term-name">RPA</div><div class="term-def">Automatización robótica de procesos: software que imita las acciones de una persona dentro de sistemas digitales o administrativos.</div><div class="term-ex"><b>Ejemplo:</b> un bot que copia datos de una factura recibida por correo a un ERP.</div></div>
+        <div class="term"><div class="term-name">SETPOINT</div><div class="term-def">El valor objetivo que el sistema intenta alcanzar y mantener; es la referencia contra la cual se compara cada medición.</div><div class="term-ex"><b>Ejemplo:</b> los 22°C que una persona configura en su termostato.</div></div>
+        <div class="term"><div class="term-name">LAZO ABIERTO VS. CERRADO</div><div class="term-def">Un lazo abierto actúa sin verificar el resultado; un lazo cerrado usa retroalimentación para corregirse a sí mismo.</div><div class="term-ex"><b>Ejemplo:</b> un temporizador de riego (abierto) vs. un riego con sensor de humedad (cerrado).</div></div>
+      </div>
+    </section>
+
+    <section id="ciclo" class="panel">
+      <div class="panel-head"><span class="coord">N.04</span><h2>El ciclo de la automatización</h2></div>
+      <div class="panel-sub">CÓMO SE RELACIONAN SENSOR, CONTROLADOR Y ACTUADOR DENTRO DE UN LAZO CERRADO</div>
+      <div class="cycle-wrap">
+        <div class="cycle">
+          <div class="cycle-node cn-1"><div class="num">1</div><div class="label">Sensar</div></div>
+          <div class="cycle-node cn-2"><div class="num">2</div><div class="label">Procesar y decidir</div></div>
+          <div class="cycle-node cn-3"><div class="num">3</div><div class="label">Actuar</div></div>
+          <div class="cycle-node cn-4"><div class="num">4</div><div class="label">Verificar y ajustar</div></div>
+          <div class="cycle-center">LAZO CERRADO<br>DE CONTROL</div>
+        </div>
+        <div class="cycle-legend">
+          <div class="cl-item"><b>1. SENSAR</b> — el sistema mide una variable del proceso mediante sensores.</div>
+          <div class="cl-item"><b>2. PROCESAR</b> — el controlador compara el valor medido contra el objetivo y calcula la acción necesaria.</div>
+          <div class="cl-item"><b>3. ACTUAR</b> — el actuador ejecuta la acción física o digital ordenada.</div>
+          <div class="cl-item"><b>4. VERIFICAR</b> — el resultado se vuelve a medir y el ciclo se repite, corrigiendo desviaciones de forma continua.</div>
+        </div>
+      </div>
+      <div class="applied-example">
+        <div class="ae-head">EJEMPLO APLICADO — TERMOSTATO DE UN AIRE ACONDICIONADO</div>
+        <div class="ae-steps">
+          <div class="ae-step"><span class="ae-role">SENSAR</span>El sensor de temperatura mide que el ambiente está a 26°C.</div>
+          <div class="ae-step"><span class="ae-role">PROCESAR</span>El controlador compara 26°C contra el setpoint de 22°C y calcula que hace falta enfriar.</div>
+          <div class="ae-step"><span class="ae-role">ACTUAR</span>El compresor se enciende y el aire frío empieza a circular.</div>
+          <div class="ae-step"><span class="ae-role">VERIFICAR</span>El sensor vuelve a medir cada pocos segundos; cuando llega a 22°C, el controlador apaga el compresor. Si la temperatura vuelve a subir, el ciclo se repite solo.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tipos" class="panel">
+      <div class="panel-head"><span class="coord">N.05</span><h2>Tipos de automatización</h2></div>
+      <div class="panel-sub">CLASIFICACIÓN CLÁSICA SEGÚN EL GRADO DE FLEXIBILIDAD DEL SISTEMA</div>
+      <div class="type-grid">
+        <div class="type-card"><div class="tc-name">FIJA</div><div class="tc-def">Secuencia de operaciones fija, integrada en el propio equipo. Muy eficiente para altos volúmenes de un solo producto, pero costosa de modificar.</div><div class="tc-example"><b>Ejemplo:</b> una línea de embotellado dedicada exclusivamente a un formato de botella.</div></div>
+        <div class="type-card"><div class="tc-name">PROGRAMABLE</div><div class="tc-def">El equipo puede reprogramarse para producir distintos lotes o variantes, cambiando el software o la configuración entre corridas.</div><div class="tc-example"><b>Ejemplo:</b> un centro de mecanizado CNC que cambia de pieza cargando un nuevo programa.</div></div>
+        <div class="type-card"><div class="tc-name">FLEXIBLE</div><div class="tc-def">Puede pasar de un producto a otro sin detener la producción ni requerir reprogramación manual, gracias a sensores y sistemas adaptativos.</div><div class="tc-example"><b>Ejemplo:</b> una celda robótica que identifica la pieza que llega y ajusta su proceso automáticamente.</div></div>
+      </div>
+      <div class="callout warn"><b>Nota.</b> Estos tres tipos no son excluyentes: una misma planta suele combinar automatización fija en las etapas de mayor volumen (por ejemplo, envasado) con automatización flexible en las etapas de mayor variedad (por ejemplo, ensamblaje final personalizado).</div>
+    </section>
+
+    <section id="niveles" class="panel">
+      <div class="panel-head"><span class="coord">N.06</span><h2>Niveles de automatización</h2></div>
+      <div class="panel-sub">CORTE EN ELEVACIÓN DE LA PIRÁMIDE DE AUTOMATIZACIÓN INDUSTRIAL</div>
+      <div class="pyramid-wrap">
+        <div class="pyramid">
+          <div class="pyr-level pyr-5">NIVEL 4–5 · ERP / NEGOCIO</div>
+          <div class="pyr-level pyr-4">NIVEL 3 · MES / GESTIÓN DE MANUFACTURA</div>
+          <div class="pyr-level pyr-3">NIVEL 2 · SCADA / SUPERVISIÓN</div>
+          <div class="pyr-level pyr-2">NIVEL 1 · PLC / CONTROL</div>
+          <div class="pyr-level pyr-1">NIVEL 0 · CAMPO (SENSORES Y ACTUADORES)</div>
+        </div>
+        <div class="pyramid-legend">
+          <dl>
+            <dt>NIVEL 0 — CAMPO</dt><dd>Los sensores y actuadores en contacto directo con el proceso físico.</dd>
+            <dt>NIVEL 1 — CONTROL</dt><dd>PLC o controladores que ejecutan la lógica de automatización en tiempo real, sobre una sola máquina o celda.</dd>
+            <dt>NIVEL 2 — SUPERVISIÓN</dt><dd>Sistemas SCADA que visualizan y permiten operar varias máquinas o líneas desde una sala de control.</dd>
+            <dt>NIVEL 3 — GESTIÓN DE MANUFACTURA</dt><dd>El MES coordina órdenes de producción, trazabilidad y calidad entre distintas líneas o plantas.</dd>
+            <dt>NIVEL 4–5 — NEGOCIO</dt><dd>El ERP conecta la producción con compras, ventas y planeación financiera de toda la empresa.</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="ventajas" class="panel">
+      <div class="panel-head"><span class="coord">N.07</span><h2>Ventajas y desventajas</h2></div>
+      <div class="pros-cons">
+        <div class="pc-col pros">
+          <div class="pc-head">VENTAJAS</div>
+          <ul>
+            <li><b>Productividad.</b> Mayor productividad y consistencia en la calidad del resultado, sin la variabilidad propia del trabajo manual.</li>
+            <li><b>Seguridad.</b> Reducción de errores humanos y de riesgos laborales, sobre todo en tareas peligrosas o repetitivas.</li>
+            <li><b>Trazabilidad.</b> Operación continua, con registro completo de los datos de cada lote o transacción.</li>
+            <li><b>Costos a largo plazo.</b> Optimización de costos operativos una vez amortizada la inversión inicial.</li>
+            <li><b>Escalabilidad.</b> Facilita crecer el volumen de producción sin depender linealmente de más personal.</li>
+          </ul>
+        </div>
+        <div class="pc-col cons">
+          <div class="pc-head">DESVENTAJAS</div>
+          <ul>
+            <li><b>Inversión inicial.</b> Alta inversión en tecnología e infraestructura antes de ver retorno.</li>
+            <li><b>Dependencias.</b> Requiere energía, conectividad y mantenimiento especializado de forma constante.</li>
+            <li><b>Impacto laboral.</b> Posible desplazamiento de mano de obra y necesidad de recalificación del personal.</li>
+            <li><b>Rigidez.</b> Menor flexibilidad ante cambios imprevistos en el proceso, especialmente en automatización fija.</li>
+            <li><b>Ciberseguridad.</b> Un sistema más conectado también expone nuevas superficies de ataque.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferencias" class="panel">
+      <div class="panel-head"><span class="coord">N.08</span><h2>Automatización industrial vs. de servicios</h2></div>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Comparación entre automatización industrial y de servicios"><table>
+        <thead><tr><th>ASPECTO</th><th class="col-ind">INDUSTRIAL</th><th class="col-serv">SERVICIOS</th></tr></thead>
+        <tbody>
+          <tr><td>Objeto</td><td>Procesos físicos de producción: ensamblaje, manufactura, envasado.</td><td>Procesos administrativos y de atención: facturación, soporte, gestión.</td></tr>
+          <tr><td>Tecnologías típicas</td><td>PLC, robots, sensores industriales, sistemas SCADA.</td><td>RPA, chatbots, CRM, flujos de trabajo digitales.</td></tr>
+          <tr><td>Entorno</td><td>Planta o fábrica, bajo condiciones físicas controladas.</td><td>Oficinas, plataformas digitales y entornos en la nube.</td></tr>
+          <tr><td>Variable crítica</td><td>Precisión mecánica y seguridad física del operario.</td><td>Velocidad de respuesta y experiencia del usuario.</td></tr>
+          <tr><td>Horizonte de cambio</td><td>Rediseñar una línea puede tomar meses y requiere obra física.</td><td>Ajustar un flujo digital puede tomar días, cambiando solo el software.</td></tr>
+          <tr><td>Ejemplo</td><td>Brazo robótico soldando la carrocería de un vehículo.</td><td>Sistema que resuelve automáticamente un ticket de soporte.</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section id="casos" class="panel">
+      <div class="panel-head"><span class="coord">N.09</span><h2>Casos de estudio</h2></div>
+      <div class="panel-sub">TRES EJEMPLOS REALES QUE ILUSTRAN DISTINTOS TIPOS Y NIVELES DE AUTOMATIZACIÓN</div>
+      <div class="case-grid">
+        <div class="case">
+          <div><div class="case-tag">INDUSTRIAL</div><div class="case-title">Ensamblaje automotriz</div></div>
+          <div class="case-body">
+            <p>Las plantas automotrices modernas combinan automatización fija en el chasis y robots de soldadura por puntos con celdas flexibles en el ensamblaje final, donde cada vehículo puede tener un color o equipamiento distinto.</p>
+            <p>Un sistema SCADA supervisa decenas de estaciones simultáneamente, mientras un MES asigna la secuencia de modelos según los pedidos recibidos.</p>
+            <div class="case-result">RESULTADO: cientos de vehículos personalizados ensamblados por día con un margen de error mínimo.</div>
+          </div>
+        </div>
+        <div class="case">
+          <div><div class="case-tag">LOGÍSTICA</div><div class="case-title">Centro de distribución con AGV</div></div>
+          <div class="case-body">
+            <p>Vehículos de guiado automático (AGV) trasladan estanterías completas hasta la persona encargada de preparar el pedido, en lugar de que la persona camine por el almacén buscando cada producto.</p>
+            <p>Sensores de proximidad y un software central coordinan las rutas para evitar colisiones y minimizar los tiempos muertos.</p>
+            <div class="case-result">RESULTADO: reducción notable del tiempo de preparación de pedidos y del desplazamiento del personal.</div>
+          </div>
+        </div>
+        <div class="case">
+          <div><div class="case-tag">SERVICIOS</div><div class="case-title">Automatización de facturación con RPA</div></div>
+          <div class="case-body">
+            <p>Un bot de RPA revisa una casilla de correo, identifica las facturas recibidas, extrae los datos clave (proveedor, monto, fecha) y los carga en el sistema contable de la empresa.</p>
+            <p>Cuando encuentra un dato inconsistente, el bot no decide por su cuenta: genera una alerta para que una persona lo revise.</p>
+            <div class="case-result">RESULTADO: menos carga operativa repetitiva y datos disponibles con menor demora.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="arquitectura" class="panel">
+      <div class="panel-head"><span class="coord">N.10</span><h2>Arquitectura de un sistema automatizado</h2></div>
+      <div class="panel-sub">CÓMO SE CONECTAN CAMPO, CONTROL Y SUPERVISIÓN EN UN DIAGRAMA SIMPLIFICADO</div>
+      <div class="arch-figure">
+        <svg role="img" aria-label="Lazo de control entre proceso, sensor, controlador y actuador, con supervisión SCADA" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" width="100%" height="auto">
+          <defs>
+            <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0,0 L8,4 L0,8 z" fill="#ff87bc"/>
+            </marker>
+          </defs>
+          <rect x="40" y="110" width="150" height="50" fill="#19131e" stroke="#755066"/>
+          <text x="115" y="140" text-anchor="middle" fill="#f7eff6" font-family="IBM Plex Mono" font-size="12" font-weight="500">PROCESO FÍSICO</text>
+
+          <rect x="270" y="30" width="150" height="50" fill="#19131e" stroke="#ffb8d7"/>
+          <text x="345" y="60" text-anchor="middle" fill="#ffb8d7" font-family="IBM Plex Mono" font-size="12" font-weight="500">SENSOR</text>
+
+          <rect x="500" y="110" width="160" height="50" fill="#211927" stroke="#ff87bc"/>
+          <text x="580" y="140" text-anchor="middle" fill="#ff87bc" font-family="IBM Plex Mono" font-size="12" font-weight="500">CONTROLADOR (PLC)</text>
+
+          <rect x="270" y="190" width="150" height="50" fill="#19131e" stroke="#ffb8d7"/>
+          <text x="345" y="220" text-anchor="middle" fill="#ffb8d7" font-family="IBM Plex Mono" font-size="12" font-weight="500">ACTUADOR</text>
+
+          <rect x="500" y="20" width="160" height="50" fill="#19131e" stroke="#755066" stroke-dasharray="3,3"/>
+          <text x="580" y="50" text-anchor="middle" fill="#b8aaba" font-family="IBM Plex Mono" font-size="11">SCADA (SUPERVISIÓN)</text>
+
+          <path d="M190,130 Q230,90 270,60" fill="none" stroke="#b8aaba" marker-end="url(#arrow)"/>
+          <path d="M420,55 L500,70" fill="none" stroke="#b8aaba" marker-end="url(#arrow)"/>
+          <path d="M580,160 L580,190 Q580,215 420,215" fill="none" stroke="#b8aaba" marker-end="url(#arrow)"/>
+          <path d="M270,215 Q220,190 190,160" fill="none" stroke="#b8aaba" marker-end="url(#arrow)"/>
+          <path d="M580,110 L580,70" fill="none" stroke="#b8aaba" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+
+          <text x="230" y="95" fill="#b8aaba" font-family="IBM Plex Mono" font-size="10">mide</text>
+          <text x="455" y="58" fill="#b8aaba" font-family="IBM Plex Mono" font-size="10">informa</text>
+          <text x="500" y="205" fill="#b8aaba" font-family="IBM Plex Mono" font-size="10">ordena</text>
+          <text x="230" y="205" fill="#b8aaba" font-family="IBM Plex Mono" font-size="10">modifica</text>
+        </svg>
+        <p class="arch-caption">El sensor informa al controlador, el controlador ordena al actuador, y el actuador modifica el proceso físico — mientras un sistema SCADA supervisa el conjunto desde arriba, sin intervenir directamente en el lazo de control.</p>
+      </div>
+    </section>
+
+    <section id="glosario" class="panel">
+      <div class="panel-head"><span class="coord">N.11</span><h2>Glosario extendido</h2></div>
+      <div class="panel-sub">TÉRMINOS ADICIONALES FRECUENTES AL LEER SOBRE AUTOMATIZACIÓN</div>
+      <div class="glossary">
+        <div class="g-item"><div class="g-term">SCADA</div><div class="g-def">Sistema de supervisión, control y adquisición de datos que permite visualizar y operar varios procesos desde una sola interfaz.</div></div>
+        <div class="g-item"><div class="g-term">MES</div><div class="g-def">Sistema de ejecución de manufactura que coordina órdenes de producción, calidad y trazabilidad entre líneas.</div></div>
+        <div class="g-item"><div class="g-term">ERP</div><div class="g-def">Software que integra la información de negocio de toda la empresa: finanzas, compras, ventas e inventario.</div></div>
+        <div class="g-item"><div class="g-term">IOT INDUSTRIAL (IIOT)</div><div class="g-def">Red de sensores y dispositivos conectados que envían datos del proceso a sistemas de análisis en tiempo real.</div></div>
+        <div class="g-item"><div class="g-term">INDUSTRIA 4.0</div><div class="g-def">Tendencia que integra automatización, datos en tiempo real e inteligencia artificial en toda la cadena productiva.</div></div>
+        <div class="g-item"><div class="g-term">GEMELO DIGITAL</div><div class="g-def">Réplica virtual de un proceso físico usada para simular, predecir fallas o probar cambios sin riesgo.</div></div>
+        <div class="g-item"><div class="g-term">AGV</div><div class="g-def">Vehículo de guiado automático usado para transportar materiales dentro de una planta o almacén.</div></div>
+        <div class="g-item"><div class="g-term">HMI</div><div class="g-def">Interfaz humano-máquina: la pantalla o panel que permite a una persona observar y operar un sistema automatizado.</div></div>
+        <div class="g-item"><div class="g-term">REDUNDANCIA</div><div class="g-def">Duplicar componentes críticos para que el sistema siga funcionando aunque uno falle.</div></div>
+        <div class="g-item"><div class="g-term">TIEMPO DE CICLO</div><div class="g-def">Tiempo que tarda el sistema en completar una repetición completa del proceso automatizado.</div></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>PORTAFOLIO · AUTOMATIZACIÓN</span>
+      <span>CARD 01 DE 06 · VERSIÓN EXTENDIDA · REV B</span>
+    </footer>
+
+  </main>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
